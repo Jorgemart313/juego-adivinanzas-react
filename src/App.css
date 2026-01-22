@@ -1,0 +1,48 @@
+body {
+  background-color:rgb(108, 150, 192);
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 5px;
+}
+
+p {
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+}
+
+img {
+  width: 200px;
+}
+
+input {    
+  border-radius: 5px;
+  border: 2px solid #c3d0d6;
+  background-color: transparent;
+  padding: 5px;
+  width: 30%;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: darkgreen;
+  width: 30%;
+  height: 2rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
